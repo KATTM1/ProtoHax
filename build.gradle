@@ -17,7 +17,7 @@ repositories {
     maven { url = 'https://repo.opencollab.dev/maven-releases/' }
     maven { url = 'https://repo.opencollab.dev/maven-snapshots/' }
     maven { url = 'https://repo.hackpixel.net/maven_repo/' }
-    maven { url = 'https://raw.githubusercontent.com/CloudPixel-Studio/maven_repo/main/maven_repo/'}
+    maven { url = 'https://raw.githubusercontent.com/KATTM1/maven_repo/main/maven_repo/'}
 }
 
 configurations {
@@ -65,7 +65,7 @@ publishing {
     repositories {
         maven {
             name = 'GitHubPackages'
-            url = uri('https://maven.pkg.github.com/CloudPixel-Studio/ProtoHax')
+            url = uri('https://maven.pkg.github.com/KATTM1/ProtoHax')
 
             credentials {
                 username = System.getenv("USERNAME_GITHUB")
