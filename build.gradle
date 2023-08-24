@@ -11,7 +11,7 @@ static def getCommitID() {
 group = 'dev.sora.relay'
 version = '1.4.0'
 
-repositories {
+repositories { 
     mavenLocal()
     mavenCentral()
     maven { url = 'https://repo.opencollab.dev/maven-releases/' }
